@@ -1,0 +1,18 @@
+version: '3.0.0'
+# 从已装的数据源选择一个进行使用
+# Select one of the installed data sources to use
+database: 'sqlite'
+# 个人邮件过期时间 (天)
+# Personal mail expiration time (day)
+expire-day: 30
+# 插件启动时进行更新检查
+# Check for updates when the plugin starts
+update-check: false
+# 检测到新版本时是否自动更新
+# Whether to update automatically when a new version is detected
+auto-update: false
+# 检测到配置文件与版本不符时是否更新
+# Update config when the configuration file is detected to be inconsistent with the version
+# 注: 该操作会删除文档中的注释
+# Note: This action will delete the comments in the document
+auto-config: false
